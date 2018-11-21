@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(public electronService: ElectronService,
     private translate: TranslateService) {
 
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('bg'); // old 'en', set language to Bulgarian
     console.log('AppConfig', AppConfig);
 
     if (electronService.isElectron()) {
