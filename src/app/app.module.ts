@@ -20,7 +20,7 @@ import { WebviewDirective } from './directives/webview.directive';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './auth/login/login.component';
+import { LoginComponent } from './components/auth/login/login.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
